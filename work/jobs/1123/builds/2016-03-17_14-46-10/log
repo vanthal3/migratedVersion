@@ -1,0 +1,16 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /Users/Hanifa_Bell/Desktop/finalTests
+
+
+
+Jmeter Visualizer parsing: JtlFile reports '**/*.jtl'
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/1123/builds/2016-03-17_14-46-10/visualizer-reports/JTL File/EchoHeader.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/1123/builds/2016-03-17_14-46-10/visualizer-reports/JTL File/diff.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/1123/builds/2016-03-17_14-46-10/visualizer-reports/JTL File/fp.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/1123/builds/2016-03-17_14-46-10/visualizer-reports/JTL File/fp_failAssertsOnly.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/1123/builds/2016-03-17_14-46-10/visualizer-reports/JTL File/fp_success.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/1123/builds/2016-03-17_14-46-10/visualizer-reports/JTL File/fp_testFailMsg.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/1123/builds/2016-03-17_14-46-10/visualizer-reports/JTL File/o_small.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/1123/builds/2016-03-17_14-46-10/visualizer-reports/JTL File/test.jtl'.
+Build step 'Run Jmeter Visualizer' changed build result to FAILURE
+Finished: FAILURE

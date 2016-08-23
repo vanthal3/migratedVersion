@@ -1,0 +1,27 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /Users/Hanifa_Bell/Desktop/finalTests
+[finalTests] $ /bin/sh -xe /var/folders/xd/qn0qb19j26jc6thbp_4qrpt80000gn/T/hudson8142830646949077844.sh
++ /usr/local/bin/jmeter -p /usr/local/bin/jmeter.properties -n -t /Users/Hanifa_Bell/Desktop/finalTests/EchoHeader.jmx -l /Users/Hanifa_Bell/Desktop/finalTests/EchoHeader.jtl
+Creating summariser <summary>
+Created the tree successfully using /Users/Hanifa_Bell/Desktop/finalTests/EchoHeader.jmx
+Starting the test @ Thu Mar 17 14:34:30 EDT 2016 (1458239670405)
+Waiting for possible shutdown message on port 4445
+summary +      1 in   0.1s =    8.8/s Avg:    20 Min:    20 Max:    20 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +      6 in   0.4s =   15.3/s Avg:    10 Min:     1 Max:    19 Err:     2 (33.33%) Active: 0 Started: 1 Finished: 1
+summary =      7 in     1s =   13.9/s Avg:    11 Min:     1 Max:    20 Err:     2 (28.57%)
+Tidying up ...    @ Thu Mar 17 14:34:31 EDT 2016 (1458239671153)
+... end of run
+
+
+
+Performance: Recording JtlFile reports '**/*.jtl'
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/lk/builds/2016-03-17_14-34-29/visualizer-reports/JTL File/EchoHeader.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/lk/builds/2016-03-17_14-34-29/visualizer-reports/JTL File/diff.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/lk/builds/2016-03-17_14-34-29/visualizer-reports/JTL File/fp.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/lk/builds/2016-03-17_14-34-29/visualizer-reports/JTL File/fp_failAssertsOnly.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/lk/builds/2016-03-17_14-34-29/visualizer-reports/JTL File/fp_success.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/lk/builds/2016-03-17_14-34-29/visualizer-reports/JTL File/fp_testFailMsg.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/lk/builds/2016-03-17_14-34-29/visualizer-reports/JTL File/o_small.jtl'.
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/lk/builds/2016-03-17_14-34-29/visualizer-reports/JTL File/test.jtl'.
+Build step 'Run Jmeter Visualizer' changed build result to FAILURE
+Finished: FAILURE

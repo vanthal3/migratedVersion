@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.visualizer.JVisualizerBuildAction>
+      <build class="build" reference="../../.."/>
+      <buildNum>6</buildNum>
+      <buildDate>2016-03-22_13-19-48</buildDate>
+    </hudson.plugins.visualizer.JVisualizerBuildAction>
+  </actions>
+  <number>6</number>
+  <result>FAILURE</result>
+  <duration>103</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/Hanifa_Bell/Desktop/finalTests</workspace>
+  <hudsonVersion>1.480</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

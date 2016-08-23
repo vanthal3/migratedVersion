@@ -1,0 +1,9 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /Users/Hanifa_Bell/Desktop/finalTests
+
+
+
+Jmeter Visualizer parsing: JtlFile reports 'fp.jtl'
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/All Jmeter Plugin Versions/Jmeter-Visualizer copy 2/./work/jobs/lastone/builds/2016-08-03_12-55-06/visualizer-reports/JTL File/fp.jtl'.
+Build step 'Run Jmeter Visualizer' changed build result to FAILURE
+Finished: FAILURE

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="47" lt="46" ts="1452712887939" s="false" lb="testPingMsg" rc="500" rm="Internal Server Error" tn="PXG-PING 2-1" dt="text" by="577" ng="1" na="3">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : &lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;[[[&lt;soap:Body&gt;&lt;soap:Fault&gt;&lt;faultcode&gt;soap:Server&lt;/faultcode&gt;&lt;faultstring&gt;Service Exception&lt;/faultstring...]]]&lt;/soap:Envelope&gt;
+
+****** comparison: &lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;[[[
+   &lt;soap:Body&gt;
+      &lt;ns2:sendSmsResponse xmlns:ns2=&quot;http://www.csapi.org/schema/parlayx/sms/send/v...]]]&lt;/soap:Envelope&gt;
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="131" lt="94" ts="1452712887995" s="true" lb="JDBC Request" rc="200" rm="OK" tn="JDBC 3-1" dt="text" by="168" ng="1" na="2"/>
+<httpSample t="2523" lt="2522" ts="1452712890415" s="true" lb="invalidpPathAssertion" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="504" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="1" lt="0" ts="1452712890416" s="false" lb="operationTypeAdd" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused" tn="ParseNotificationXML 1-1" dt="text" by="1741" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : [[[java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Meth...]]]
+
+****** comparison: [[[&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/so...]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="1" lt="0" ts="1452712890419" s="false" lb="operationTypeMod" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused" tn="ParseNotificationXML 1-1" dt="text" by="1741" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : [[[java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Meth...]]]
+
+****** comparison: [[[&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/so...]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="0" lt="0" ts="1452712890420" s="false" lb="operationTypeDel" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused" tn="ParseNotificationXML 1-1" dt="text" by="1741" ng="1" na="1"/>
+<httpSample t="0" lt="0" ts="1452712890421" s="false" lb="operationTypeNull" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused" tn="ParseNotificationXML 1-1" dt="text" by="1741" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : [[[java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Meth...]]]
+
+****** comparison: [[[&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/so...]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="0" lt="0" ts="1452712890422" s="false" lb="operationTypeString" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused" tn="ParseNotificationXML 1-1" dt="text" by="1741" ng="1" na="1">
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : [[[java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Meth...]]]
+
+****** comparison: [[[&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/so...]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[500                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="75917" lt="0" ts="1452749313848" s="false" lb="testPingMsg" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Operation timed out" tn="PXG-PING 2-1" dt="text" by="1742" ng="1" na="3">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : [[[java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Met...]]]
+
+****** comparison: [[[&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;
+   &lt;soap:Body&gt;
+      &lt;ns2:sen...]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="76695" lt="0" ts="1452749314626" s="false" lb="invalidpPathAssertion" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Operation timed out" tn="ParseNotificationXML 1-1" dt="text" by="1742" ng="1" na="2">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /200/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="1" lt="0" ts="1452749314624" s="false" lb="operationTypeAdd" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused" tn="ParseNotificationXML 1-1" dt="text" by="1741" ng="1" na="2">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : [[[java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Meth...]]]
+
+****** comparison: [[[&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/so...]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="0" lt="0" ts="1452749314625" s="false" lb="operationTypeMod" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused" tn="ParseNotificationXML 1-1" dt="text" by="1741" ng="1" na="2">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : [[[java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Meth...]]]
+
+****** comparison: [[[&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/so...]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="1" lt="0" ts="1452749314627" s="false" lb="operationTypeDel" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused" tn="ParseNotificationXML 1-1" dt="text" by="1741" ng="1" na="2"/>
+<httpSample t="1" lt="0" ts="1452749314628" s="false" lb="operationTypeNull" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused" tn="ParseNotificationXML 1-1" dt="text" by="1741" ng="1" na="2">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : [[[java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Meth...]]]
+
+****** comparison: [[[&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/so...]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="0" lt="0" ts="1452749314629" s="false" lb="operationTypeString" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused" tn="ParseNotificationXML 1-1" dt="text" by="1741" ng="1" na="2">
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : [[[java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Meth...]]]
+
+****** comparison: [[[&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/so...]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[500                                              ]]]
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="120008" lt="120008" ts="1452749357921" s="false" lb="JDBC Request" rc="08006 17002" rm="java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection" tn="JDBC 3-1" dt="text" by="64" ng="1" na="1"/>
+
+</testResults>

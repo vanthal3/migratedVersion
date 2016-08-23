@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.visualizer.JVisualizerBuildAction>
+      <build class="build" reference="../../.."/>
+      <parsers>
+        <hudson.plugins.visualizer.JtlFileParser>
+          <glob>**/fp_failAssertsOnly.jtl</glob>
+          <sampleID>5218</sampleID>
+        </hudson.plugins.visualizer.JtlFileParser>
+      </parsers>
+      <buildNum>7</buildNum>
+      <buildDate>2016-02-16_08-20-39</buildDate>
+    </hudson.plugins.visualizer.JVisualizerBuildAction>
+  </actions>
+  <number>7</number>
+  <result>SUCCESS</result>
+  <duration>21</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/Hanifa_Bell/Desktop/finalTests</workspace>
+  <hudsonVersion>1.480</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

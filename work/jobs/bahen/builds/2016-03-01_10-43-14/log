@@ -1,0 +1,11 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /Users/Hanifa_Bell/Desktop/finalTests
+
+
+
+Performance: Recording JtlFile reports '**/fp.jtl'
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/bahen/builds/2016-03-01_10-43-14/visualizer-reports/JTL File/fp.jtl'.
+Performance: Recording JtlFile reports '**/EchoHeader.jtl'
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/bahen/builds/2016-03-01_10-43-14/visualizer-reports/JTL File/EchoHeader.jtl'.
+Build step 'Run Jmeter Visualizer' changed build result to FAILURE
+Finished: FAILURE

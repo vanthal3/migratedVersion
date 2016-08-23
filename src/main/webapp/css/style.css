@@ -1,0 +1,55 @@
+
+  ul.LinkedList { display: block; }
+  ul.LinkedList ul { display: none; }
+
+
+table#Main{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+
+table#Main th{
+    background-color: #6799cc;
+   // #FFC04C
+    height: 50px;
+    color: white;
+    text-align: center;
+
+}
+
+table#Main td#top{
+    background-color: #FFC04C;
+    padding: 8px;
+
+}
+
+
+table#Main td {
+    border: 1px solid #ddd;
+
+    text-align: left;
+}
+
+
+table#Assertions {
+    border-width: 1px;
+    border-color: #bbb;
+    background-color: #F6F6D9;
+}
+
+table#Assertions td {
+    padding: 4px;
+}
+
+
+
+.red, table.source .red a {
+	color: red;
+}
+
+.green, table.source .green a {
+	color: green;
+}

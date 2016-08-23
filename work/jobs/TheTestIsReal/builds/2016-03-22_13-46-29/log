@@ -1,0 +1,20 @@
+Started by timer
+Building in workspace /Users/Hanifa_Bell/Desktop/finalTests
+[finalTests] $ /bin/sh -xe /var/folders/xd/qn0qb19j26jc6thbp_4qrpt80000gn/T/hudson5710438854997015324.sh
++ /usr/local/bin/jmeter -p /usr/local/bin/jmeter.properties -n -t /Users/Hanifa_Bell/Desktop/finalTests/HTTPwsmsxTestCases.jmx -l /Users/Hanifa_Bell/Desktop/finalTests/LAST.jtl
+Creating summariser <summary>
+Created the tree successfully using /Users/Hanifa_Bell/Desktop/finalTests/HTTPwsmsxTestCases.jmx
+Starting the test @ Tue Mar 22 13:46:30 EDT 2016 (1458668790336)
+Waiting for possible shutdown message on port 4445
+summary +      1 in   0.2s =    4.7/s Avg:   169 Min:   169 Max:   169 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     15 in   1.2s =   12.6/s Avg:    78 Min:     5 Max:   210 Err:     1 (6.67%) Active: 0 Started: 1 Finished: 1
+summary =     16 in   1.4s =   11.4/s Avg:    83 Min:     5 Max:   210 Err:     1 (6.25%)
+Tidying up ...    @ Tue Mar 22 13:46:31 EDT 2016 (1458668791996)
+... end of run
+
+
+
+Jmeter Visualizer parsing: JtlFile reports '**/fp.jtl'
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/crapp/builds/2016-03-22_13-46-29/visualizer-reports/JTL File/fp.jtl'.
+Build step 'Run Jmeter Visualizer' changed build result to FAILURE
+Finished: FAILURE

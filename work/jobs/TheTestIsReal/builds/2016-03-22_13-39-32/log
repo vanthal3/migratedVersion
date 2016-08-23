@@ -1,0 +1,41 @@
+Started by timer
+Building in workspace /Users/Hanifa_Bell/Desktop/finalTests
+[finalTests] $ /bin/sh -xe /var/folders/xd/qn0qb19j26jc6thbp_4qrpt80000gn/T/hudson5648021823402434737.sh
++ /usr/local/bin/jmeter -p /usr/local/bin/jmeter.properties -n -t /Users/Hanifa_Bell/Desktop/finalTests/HTTPwsmsxTestCases.jmx -l /Users/Hanifa_Bell/Desktop/finalTests/LAST.jtl
+Creating summariser <summary>
+Created the tree successfully using /Users/Hanifa_Bell/Desktop/finalTests/HTTPwsmsxTestCases.jmx
+Starting the test @ Tue Mar 22 13:39:32 EDT 2016 (1458668372535)
+Waiting for possible shutdown message on port 4445
+summary +      1 in   0.2s =    5.3/s Avg:   149 Min:   149 Max:   149 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     15 in   1.2s =   12.5/s Avg:    78 Min:     5 Max:   200 Err:     1 (6.67%) Active: 0 Started: 1 Finished: 1
+summary =     16 in   1.4s =   11.5/s Avg:    83 Min:     5 Max:   200 Err:     1 (6.25%)
+Tidying up ...    @ Tue Mar 22 13:39:34 EDT 2016 (1458668374176)
+... end of run
+Build step 'Execute shell' marked build as failure
+ERROR: Publisher hudson.plugins.visualizer.JVisualizerPublisher aborted due to exception
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.lang.NullPointerException
+	at hudson.model.Run.getCharacteristicEnvVars(Run.java:1963)
+	at hudson.model.Run.getEnvironment(Run.java:1948)
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:843)
+	at hudson.plugins.visualizer.JVisualizerPublisher.perform(JVisualizerPublisher.java:188)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:717)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:692)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:639)
+	at hudson.model.Run.execute(Run.java:1527)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:236)
+FATAL: null
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.lang.NullPointerException
+	at hudson.model.Job.getBuildDir(Job.java:657)
+	at hudson.model.Run.getRootDir(Run.java:886)
+	at hudson.model.AbstractBuild.calcChangeSet(AbstractBuild.java:827)
+	at hudson.model.AbstractBuild.getChangeSet(AbstractBuild.java:806)
+	at hudson.model.AbstractBuild.getCulprits(AbstractBuild.java:318)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:649)
+	at hudson.model.Run.execute(Run.java:1527)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:236)

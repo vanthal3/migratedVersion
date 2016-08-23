@@ -1,0 +1,69 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define"
+	xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <l:layout xmlns:jm="/hudson/plugins/visualizer/tags"  css="/plugin/visualizer/css/style.css">
+    <l:main-panel>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       <script src="/plugin/visualizer/custom.js"></script>
+      <!-- body tag is important to include to render JS script-->
+          <body onload="addEvents();">
+
+<j:forEach var="build" items="${it.getBuildHistory()}">
+    <j:forEach var  ="report" items="${build.getJVisualizerReportMap().getPerformanceListOrdered()}">
+            <div style="overflow-x:auto;">
+                  <table id="Main" >
+                      <td id="top" colspan="1">${%Build#}: <span style="font-weight:bold">${build.getBuildNum()}</span></td>
+                      <td id="top" colspan="2">${%Visualizer for File}: <span style="font-weight:bold">${report.getReportFileName()}</span></td>
+                      <td id="top" colspan="3">${%Date}: <span style="font-weight:bold">${build.getBuildDate()}</span></td>
+                      <tr>
+                          <th>${%Http Test Name}</th>
+                          <th>${%Thread Name}</th>
+                          <th>${%TimeStamp} (ms)</th>
+                           <th>${%Elapsed Time}</th>
+                           <th>${%Response Code}</th>
+                           <th>${%Response Message}</th>
+                       </tr>
+                       <j:forEach var="httpSample" items="${report.getFailedhttpSampleMap().values()}">
+                       <tr style="color: #ff0000;">
+                           <td>
+                               <ul style="cursor: pointer;" id="LinkedList1" class="LinkedList">
+                                    <u >${httpSample.getUri()}
+                                    <ul>
+                                       <j:forEach var="arID" items="${httpSample.getAssertions().keySet()}">
+                                       <j:if test="${httpSample.getAssertions().get(arID).isFailure()}">
+                                          <li>Assertion Result Name: ${httpSample.getAssertions().get(arID).getName()}
+                                               <ul>
+                                                  <table id="Assertions">
+                                                     <tr style="color:#000000;">
+                                                      <th>${%failure Message}</th>
+                                                     </tr>
+                                                     <tr>
+                                                      <td>${httpSample.getAssertions().get(arID).getFailureMessage()}</td>
+                                                     </tr>
+                                                   </table>
+                                               </ul>
+                                          </li>
+                                          </j:if>
+
+                                       </j:forEach>
+                                    </ul>
+                                    </u>
+                               </ul>
+                               </td>
+
+                           <td>${httpSample.getThreadname()}</td>
+                           <td>${httpSample.getDate()}</td>
+                           <td>${httpSample.getDuration()}</td>
+                           <td>${httpSample.getHttpCode()}</td>
+                           <td>${httpSample.getResponseMessage()}</td>
+                           <td>${uriReport.getHttpSample().getErrorCount()}</td>
+                      </tr>
+            </j:forEach>
+
+                  </table>
+                  </div>
+       </j:forEach>
+      </j:forEach>
+      </body>
+     </l:main-panel>
+   </l:layout>
+ </j:jelly>

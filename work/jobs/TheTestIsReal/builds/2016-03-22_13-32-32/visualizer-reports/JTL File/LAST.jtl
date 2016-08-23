@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2247" lt="2246" ts="1458667558661" s="true" lb="NotAModelNum_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="122" lt="121" ts="1458667558792" s="true" lb="HTTP_hasInvalidFeatureCode_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="220" lt="220" ts="1458667559013" s="true" lb="validMigrationTest" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="119" lt="119" ts="1458667559133" s="true" lb="validAddOperation" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="103" lt="103" ts="1458667559237" s="true" lb="randomUuid_passes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="127" lt="126" ts="1458667559365" s="true" lb="msgExceedsCharLimit" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="100" lt="100" ts="1458667559466" s="true" lb="mdnNotASubscriber" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="102" lt="102" ts="1458667559569" s="true" lb="invalidMDM" rc="555" rm="" tn="ParseNotificationXML 1-1" dt="text" by="651" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="110" lt="109" ts="1458667559680" s="true" lb="invalidppdProcIndicator_butpasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="12" lt="11" ts="1458667559692" s="true" lb="invalidVoicemailFeatureCodes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="17" lt="16" ts="1458667559709" s="true" lb="invalidOU" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="21" lt="20" ts="1458667559731" s="true" lb="invalidNetworkId" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="9" ts="1458667559742" s="false" lb="operationTypeDel" rc="500" rm="Internal Server Error" tn="ParseNotificationXML 1-1" dt="text" by="461" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Body&gt;&lt;soapenv:Fault&gt;&lt;faultcode&gt;soapenv:Server&lt;/faultcode&gt;&lt;faultstring&gt;unknown&lt;/faultstring&gt;&lt;detail /...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+****** comparison: ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Header&gt;&lt;ns1:correlationHeader xmlns:ns1=&quot;http://new.webservice.namespace&quot;&gt;&lt;ns1:ServiceName&gt;WelcomeSM...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="101" lt="100" ts="1458667559843" s="true" lb="invalidAccountType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="22" lt="21" ts="1458667559865" s="true" lb="invalidAccountSubType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="115" lt="114" ts="1458667559981" s="true" lb="HTTP_Ivan" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="139" lt="139" ts="1458667592961" s="true" lb="NotAModelNum_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="119" lt="118" ts="1458667593090" s="true" lb="HTTP_hasInvalidFeatureCode_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="225" lt="224" ts="1458667593316" s="true" lb="validMigrationTest" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="117" lt="116" ts="1458667593434" s="true" lb="validAddOperation" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="109" lt="108" ts="1458667593544" s="true" lb="randomUuid_passes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="126" lt="125" ts="1458667593670" s="true" lb="msgExceedsCharLimit" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="103" lt="103" ts="1458667593774" s="true" lb="mdnNotASubscriber" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="100" lt="100" ts="1458667593875" s="true" lb="invalidMDM" rc="555" rm="" tn="ParseNotificationXML 1-1" dt="text" by="651" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="114" lt="114" ts="1458667593990" s="true" lb="invalidppdProcIndicator_butpasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="12" lt="12" ts="1458667594003" s="true" lb="invalidVoicemailFeatureCodes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" lt="15" ts="1458667594019" s="true" lb="invalidOU" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="22" lt="21" ts="1458667594042" s="true" lb="invalidNetworkId" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="6" lt="6" ts="1458667594049" s="false" lb="operationTypeDel" rc="500" rm="Internal Server Error" tn="ParseNotificationXML 1-1" dt="text" by="461" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Body&gt;&lt;soapenv:Fault&gt;&lt;faultcode&gt;soapenv:Server&lt;/faultcode&gt;&lt;faultstring&gt;unknown&lt;/faultstring&gt;&lt;detail /...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+****** comparison: ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Header&gt;&lt;ns1:correlationHeader xmlns:ns1=&quot;http://new.webservice.namespace&quot;&gt;&lt;ns1:ServiceName&gt;WelcomeSM...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="102" lt="101" ts="1458667594152" s="true" lb="invalidAccountType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="19" lt="19" ts="1458667594172" s="true" lb="invalidAccountSubType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="119" lt="118" ts="1458667594292" s="true" lb="HTTP_Ivan" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="175" lt="175" ts="1458667652996" s="true" lb="NotAModelNum_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="101" lt="101" ts="1458667653105" s="true" lb="HTTP_hasInvalidFeatureCode_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="223" lt="222" ts="1458667653329" s="true" lb="validMigrationTest" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="112" lt="112" ts="1458667653442" s="true" lb="validAddOperation" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="102" lt="102" ts="1458667653545" s="true" lb="randomUuid_passes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="124" lt="124" ts="1458667653670" s="true" lb="msgExceedsCharLimit" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="119" lt="118" ts="1458667653791" s="true" lb="mdnNotASubscriber" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="74" lt="73" ts="1458667653866" s="true" lb="invalidMDM" rc="555" rm="" tn="ParseNotificationXML 1-1" dt="text" by="651" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="112" lt="111" ts="1458667653978" s="true" lb="invalidppdProcIndicator_butpasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" lt="11" ts="1458667653990" s="true" lb="invalidVoicemailFeatureCodes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="20" lt="20" ts="1458667654011" s="true" lb="invalidOU" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="19" lt="18" ts="1458667654031" s="true" lb="invalidNetworkId" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="6" lt="5" ts="1458667654038" s="false" lb="operationTypeDel" rc="500" rm="Internal Server Error" tn="ParseNotificationXML 1-1" dt="text" by="461" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Body&gt;&lt;soapenv:Fault&gt;&lt;faultcode&gt;soapenv:Server&lt;/faultcode&gt;&lt;faultstring&gt;unknown&lt;/faultstring&gt;&lt;detail /...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+****** comparison: ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Header&gt;&lt;ns1:correlationHeader xmlns:ns1=&quot;http://new.webservice.namespace&quot;&gt;&lt;ns1:ServiceName&gt;WelcomeSM...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="100" lt="99" ts="1458667654139" s="true" lb="invalidAccountType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="19" lt="19" ts="1458667654159" s="true" lb="invalidAccountSubType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="115" lt="114" ts="1458667654275" s="true" lb="HTTP_Ivan" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="166" lt="157" ts="1458667712976" s="true" lb="NotAModelNum_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="94" lt="94" ts="1458667713078" s="true" lb="HTTP_hasInvalidFeatureCode_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" lt="202" ts="1458667713281" s="true" lb="validMigrationTest" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="102" lt="101" ts="1458667713384" s="true" lb="validAddOperation" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="119" lt="119" ts="1458667713504" s="true" lb="randomUuid_passes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="102" lt="102" ts="1458667713607" s="true" lb="msgExceedsCharLimit" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="117" lt="116" ts="1458667713726" s="true" lb="mdnNotASubscriber" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="82" lt="82" ts="1458667713809" s="true" lb="invalidMDM" rc="555" rm="" tn="ParseNotificationXML 1-1" dt="text" by="651" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="110" lt="110" ts="1458667713920" s="true" lb="invalidppdProcIndicator_butpasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" ts="1458667713930" s="true" lb="invalidVoicemailFeatureCodes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="16" lt="15" ts="1458667713947" s="true" lb="invalidOU" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="16" lt="16" ts="1458667713964" s="true" lb="invalidNetworkId" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="5" lt="5" ts="1458667713970" s="false" lb="operationTypeDel" rc="500" rm="Internal Server Error" tn="ParseNotificationXML 1-1" dt="text" by="461" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Body&gt;&lt;soapenv:Fault&gt;&lt;faultcode&gt;soapenv:Server&lt;/faultcode&gt;&lt;faultstring&gt;unknown&lt;/faultstring&gt;&lt;detail /...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+****** comparison: ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Header&gt;&lt;ns1:correlationHeader xmlns:ns1=&quot;http://new.webservice.namespace&quot;&gt;&lt;ns1:ServiceName&gt;WelcomeSM...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="94" lt="94" ts="1458667714065" s="true" lb="invalidAccountType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="17" lt="16" ts="1458667714082" s="true" lb="invalidAccountSubType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="108" lt="108" ts="1458667714191" s="true" lb="HTTP_Ivan" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="163" lt="163" ts="1458667884841" s="true" lb="NotAModelNum_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="111" lt="110" ts="1458667884961" s="true" lb="HTTP_hasInvalidFeatureCode_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="245" lt="245" ts="1458667885207" s="true" lb="validMigrationTest" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="105" lt="105" ts="1458667885313" s="true" lb="validAddOperation" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="121" lt="121" ts="1458667885436" s="true" lb="randomUuid_passes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="100" lt="99" ts="1458667885538" s="true" lb="msgExceedsCharLimit" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="134" lt="133" ts="1458667885674" s="true" lb="mdnNotASubscriber" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="98" lt="97" ts="1458667885772" s="true" lb="invalidMDM" rc="555" rm="" tn="ParseNotificationXML 1-1" dt="text" by="651" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="89" lt="89" ts="1458667885862" s="true" lb="invalidppdProcIndicator_butpasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="13" lt="12" ts="1458667885876" s="true" lb="invalidVoicemailFeatureCodes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="19" lt="18" ts="1458667885896" s="true" lb="invalidOU" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="21" lt="21" ts="1458667885917" s="true" lb="invalidNetworkId" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="6" lt="5" ts="1458667885925" s="false" lb="operationTypeDel" rc="500" rm="Internal Server Error" tn="ParseNotificationXML 1-1" dt="text" by="461" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Body&gt;&lt;soapenv:Fault&gt;&lt;faultcode&gt;soapenv:Server&lt;/faultcode&gt;&lt;faultstring&gt;unknown&lt;/faultstring&gt;&lt;detail /...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+****** comparison: ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Header&gt;&lt;ns1:correlationHeader xmlns:ns1=&quot;http://new.webservice.namespace&quot;&gt;&lt;ns1:ServiceName&gt;WelcomeSM...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="117" lt="116" ts="1458667886043" s="true" lb="invalidAccountType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="20" lt="19" ts="1458667886064" s="true" lb="invalidAccountSubType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="99" lt="99" ts="1458667886164" s="true" lb="HTTP_Ivan" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="154" lt="154" ts="1458667952999" s="true" lb="NotAModelNum_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="112" lt="111" ts="1458667953120" s="true" lb="HTTP_hasInvalidFeatureCode_butPasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="210" lt="210" ts="1458667953331" s="true" lb="validMigrationTest" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="99" lt="99" ts="1458667953431" s="true" lb="validAddOperation" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="120" lt="120" ts="1458667953552" s="true" lb="randomUuid_passes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="118" lt="118" ts="1458667953671" s="true" lb="msgExceedsCharLimit" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="98" lt="97" ts="1458667953770" s="true" lb="mdnNotASubscriber" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="93" lt="93" ts="1458667953864" s="true" lb="invalidMDM" rc="555" rm="" tn="ParseNotificationXML 1-1" dt="text" by="651" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="79" lt="78" ts="1458667953944" s="true" lb="invalidppdProcIndicator_butpasses" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" lt="11" ts="1458667953955" s="true" lb="invalidVoicemailFeatureCodes" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="16" lt="16" ts="1458667953972" s="true" lb="invalidOU" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="19" lt="18" ts="1458667953992" s="true" lb="invalidNetworkId" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="6" lt="6" ts="1458667953998" s="false" lb="operationTypeDel" rc="500" rm="Internal Server Error" tn="ParseNotificationXML 1-1" dt="text" by="461" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to equal /
+
+****** received  : ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Body&gt;&lt;soapenv:Fault&gt;&lt;faultcode&gt;soapenv:Server&lt;/faultcode&gt;&lt;faultstring&gt;unknown&lt;/faultstring&gt;&lt;detail /...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+****** comparison: ...oding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:[[[Header&gt;&lt;ns1:correlationHeader xmlns:ns1=&quot;http://new.webservice.namespace&quot;&gt;&lt;ns1:ServiceName&gt;WelcomeSM...]]]&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;
+
+/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="123" lt="122" ts="1458667954122" s="true" lb="invalidAccountType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="18" lt="18" ts="1458667954140" s="true" lb="invalidAccountSubType" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="95" lt="95" ts="1458667954236" s="true" lb="HTTP_Ivan" rc="200" rm="OK" tn="ParseNotificationXML 1-1" dt="text" by="653" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>

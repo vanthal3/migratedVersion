@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers class="vector"/>
+  <concurrentBuild>false</concurrentBuild>
+  <customWorkspace>/Users/Hanifa_Bell/Desktop/finalTests</customWorkspace>
+  <builders/>
+  <publishers>
+    <hudson.plugins.visualizer.JVisualizerPublisher>
+      <nthBuildNumber>0</nthBuildNumber>
+      <compareBuildPrevious>false</compareBuildPrevious>
+      <xml></xml>
+      <parsers>
+        <hudson.plugins.visualizer.JtlFileParser>
+          <glob>**/fp.jtl</glob>
+        </hudson.plugins.visualizer.JtlFileParser>
+      </parsers>
+      <modeThroughput>false</modeThroughput>
+    </hudson.plugins.visualizer.JVisualizerPublisher>
+  </publishers>
+  <buildWrappers/>
+</project>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.visualizer.JVisualizerBuildAction>
+      <build class="build" reference="../../.."/>
+      <parsers>
+        <hudson.plugins.visualizer.JtlFileParser>
+          <glob>**/fp.jtl</glob>
+          <sampleID>223</sampleID>
+        </hudson.plugins.visualizer.JtlFileParser>
+        <hudson.plugins.visualizer.JtlFileParser>
+          <glob>**/EchoHeader.jtl</glob>
+          <sampleID>4032</sampleID>
+        </hudson.plugins.visualizer.JtlFileParser>
+      </parsers>
+      <buildNum>29</buildNum>
+      <buildDate>2016-03-01_13-16-54</buildDate>
+    </hudson.plugins.visualizer.JVisualizerBuildAction>
+  </actions>
+  <number>29</number>
+  <result>FAILURE</result>
+  <duration>148</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/Hanifa_Bell/Desktop/finalTests</workspace>
+  <hudsonVersion>1.480</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

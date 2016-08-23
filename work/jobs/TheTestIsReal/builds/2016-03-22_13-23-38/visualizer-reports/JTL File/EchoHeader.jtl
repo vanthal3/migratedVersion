@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="75164" lt="0" ts="1452657111598" s="false" lb="JBoss OAS Node 1" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Operation timed out" tn="Lab 1-1" dt="text" by="1789" ng="1" na="1"/>
+
+<httpSample t="75180" lt="0" ts="1452657186834" s="false" lb="Apache OAS Node 1" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Operation timed out" tn="Lab 1-1" dt="text" by="1789" ng="1" na="1"/>
+
+<httpSample t="75130" lt="0" ts="1452657262016" s="false" lb="JBoss OASX Node 2" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Operation timed out" tn="Lab 1-1" dt="text" by="1789" ng="1" na="1"/>
+
+<httpSample t="75192" lt="0" ts="1452657337257" s="false" lb="Apache OASX Node 2" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Operation timed out" tn="Lab 1-1" dt="text" by="1789" ng="1" na="1"/>
+
+<httpSample t="106" lt="106" ts="1452657337413" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="855" ng="1" na="1"/>
+
+<httpSample t="2" lt="0" ts="1452657337466" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+"/>
+
+<httpSample t="75174" lt="0" ts="1452657295063" s="false" lb="Failure 2" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Operation timed out" tn="Lab 1-1" dt="text" by="1789" ng="1" na="1"/>
+
+<httpSample t="18" lt="18" ts="1452695389621" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+
+<httpSample t="12" lt="12" ts="1452695389690" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+
+<httpSample t="13" lt="13" ts="1452695389759" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+
+<httpSample t="12" lt="12" ts="1452695389825" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="856" ng="1" na="1"/>
+
+<httpSample t="11" lt="11" ts="1452695389890" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+
+<httpSample t="25" lt="0" ts="1452695389969" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+
+<httpSample t="19" lt="19" ts="1452695390041" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="21" lt="21" ts="1458235080221" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="13" lt="13" ts="1458235080293" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="17" lt="17" ts="1458235080366" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458235080428" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="10" lt="10" ts="1458235080490" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="29" lt="0" ts="1458235080572" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="19" lt="19" ts="1458235080646" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="20" lt="20" ts="1458239670757" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458239670824" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="13" lt="13" ts="1458239670892" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458239670955" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="11" lt="11" ts="1458239671020" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="1" lt="0" ts="1458239671077" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="19" lt="19" ts="1458239671148" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="3513" lt="3513" ts="1458659989826" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="12" lt="12" ts="1458659989893" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="13" lt="13" ts="1458659989961" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="10" lt="10" ts="1458659990025" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="12" lt="12" ts="1458659990091" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="36" lt="0" ts="1458659990179" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="15" lt="15" ts="1458659990246" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="18" lt="18" ts="1458660025200" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="17" lt="17" ts="1458660025273" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="10" lt="10" ts="1458660025335" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458660025397" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458660025462" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="1" lt="0" ts="1458660025518" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="11" lt="11" ts="1458660025584" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="24" lt="24" ts="1458660085208" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="11" lt="11" ts="1458660085274" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458660085338" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458660085401" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="23" lt="23" ts="1458660085478" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="1" lt="0" ts="1458660085530" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="13" lt="13" ts="1458660085595" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="19" lt="19" ts="1458660145207" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="10" lt="10" ts="1458660145277" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458660145339" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458660145400" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458660145463" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="1" lt="0" ts="1458660145519" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="18" lt="18" ts="1458660145590" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="18" lt="18" ts="1458660205772" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458660205839" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458660205904" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458660205967" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458660206032" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="2" lt="0" ts="1458660206088" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="17" lt="17" ts="1458660206161" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="17" lt="17" ts="1458660265192" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="14" lt="14" ts="1458660265261" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458660265326" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458660265388" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="10" lt="10" ts="1458660265453" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="1" lt="0" ts="1458660265510" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="18" lt="18" ts="1458660265583" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="18" lt="18" ts="1458660326209" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="17" lt="17" ts="1458660326282" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="10" lt="10" ts="1458660326344" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458660326407" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458660326466" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="0" lt="0" ts="1458660326518" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="20" lt="20" ts="1458660326593" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="16" lt="16" ts="1458660366030" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458660366093" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="7" lt="7" ts="1458660366154" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458660366216" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458660366280" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="1" lt="0" ts="1458660366337" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="14" lt="14" ts="1458660366404" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="17" lt="17" ts="1458660385196" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458660385264" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="9" lt="9" ts="1458660385324" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="10" lt="9" ts="1458660385385" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458660385447" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="1" lt="0" ts="1458660385502" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="11" lt="11" ts="1458660385565" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+<httpSample t="18" lt="18" ts="1458660490686" s="true" lb="JBoss OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="943" ng="1" na="1"/>
+<httpSample t="14" lt="14" ts="1458660490758" s="true" lb="Apache OAS Node 1" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="1003" ng="1" na="1"/>
+<httpSample t="7" lt="7" ts="1458660490818" s="true" lb="JBoss OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="965" ng="1" na="1"/>
+<httpSample t="8" lt="8" ts="1458660490878" s="true" lb="Apache OASX Node 2" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="926" ng="1" na="1"/>
+<httpSample t="12" lt="12" ts="1458660490941" s="true" lb="Load Balancer" rc="200" rm="OK" tn="Lab 1-1" dt="text" by="929" ng="1" na="1"/>
+<httpSample t="1" lt="0" ts="1458660490997" s="false" lb="Failure 1" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: x.x.x.x" tn="Lab 1-1" dt="text" by="1554" ng="1" na="1"/>
+<httpSample t="11" lt="11" ts="1458660491060" s="false" lb="Failure 2" rc="404" rm="Not Found" tn="Lab 1-1" dt="text" by="1279" ng="1" na="1"/>
+
+</testResults>

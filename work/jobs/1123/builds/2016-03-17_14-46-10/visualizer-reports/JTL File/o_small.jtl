@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="25" lt="25" ts="1452634595496" s="false" lb="Mobile API invalid appId" rc="404" rm="File Not Found" tn="Mobile API 1-1" dt="" by="50" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Content Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="5" lt="5" ts="1452634595513" s="true" lb="Mobile API valid appId" rc="401" rm="Unauthorized" tn="Mobile API 1-1" dt="" by="48" ng="1" na="1">
+  <assertionResult>
+    <name>Header Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+</testResults>
+

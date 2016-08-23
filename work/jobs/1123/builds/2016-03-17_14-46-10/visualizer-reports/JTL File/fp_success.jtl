@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="522" lt="522" ts="1452034387851" s="true" lb="5.1 Good Request in English" rc="201" rm="Created" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="579" ng="1" na="1">
+  <assertionResult>
+    <name>0</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>1</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="53" lt="53" ts="1452034387913" s="true" lb="5.2 Good Request in French" rc="201" rm="Created" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="597" ng="1" na="1">
+  <assertionResult>
+    <name>2</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="44" lt="44" ts="1452034387959" s="true" lb="5.3 Good Request with leading blanks in shortcode" rc="201" rm="Created" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="579" ng="1" na="1">
+  <assertionResult>
+    <name>3</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>4</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="51" lt="51" ts="1452034388011" s="true" lb="5.4 Good Request with trailing blanks in shortcode" rc="201" rm="Created" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="579" ng="1" na="1">
+  <assertionResult>
+    <name>5</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>6</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="35" lt="34" ts="1452034388048" s="true" lb="5.5 Bad MDN - empty value" rc="400" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="279" ng="1" na="1">
+  <assertionResult>
+    <name>7</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>8</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="52" lt="52" ts="1452034388101" s="true" lb="5.6 Bad MDN - missing parameter" rc="400" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="259" ng="1" na="1">
+  <assertionResult>
+    <name>9</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>10</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="51" lt="51" ts="1452034388153" s="true" lb="5.7a Bad MDN that is &gt;10 digits" rc="400" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="279" ng="1" na="1">
+  <assertionResult>
+    <name>11</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>12</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="51" lt="51" ts="1452034388205" s="true" lb="5.7b Bad MDN that is is missing +1" rc="400" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="279" ng="1" na="1">
+  <assertionResult>
+    <name>13</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>14</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="49" lt="48" ts="1452034388255" s="true" lb="5.7c Bad MDN that is is missing tel: prefix" rc="400" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="279" ng="1" na="1">
+  <assertionResult>
+    <name>15</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>16</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="51" lt="51" ts="1452034388307" s="true" lb="5.7d Bad MDN with letters" rc="400" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="279" ng="1" na="1">
+  <assertionResult>
+    <name>17</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>18</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="50" lt="50" ts="1452034388358" s="true" lb="5.8 Bad message - missing parameter" rc="400" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="259" ng="1" na="1">
+  <assertionResult>
+    <name>19</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>20</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="51" lt="51" ts="1452034388410" s="true" lb="5.9 Bad message - empty value" rc="400" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="259" ng="1" na="1">
+  <assertionResult>
+    <name>21</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>22</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="56" lt="56" ts="1452034388467" s="true" lb="5.10 Bad message - greater than 320 characters" rc="403" rm="Forbidden" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="264" ng="1" na="1">
+  <assertionResult>
+    <name>23</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>24</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="27" lt="27" ts="1452034388495" s="true" lb="5.11 Bad shortcode - empty value" rc="400" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="259" ng="1" na="1">
+  <assertionResult>
+    <name>25</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>26</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="52" lt="52" ts="1452034388548" s="true" lb="5.12 Bad shortcode - not matching URL" rc="400" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="259" ng="1" na="1">
+  <assertionResult>
+    <name>27</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>28</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="53" lt="53" ts="1452034388603" s="true" lb="5.13 Bad HTTP Method (POST)" rc="405" rm="Method Not Allowed" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="1270" ng="1" na="1">
+  <assertionResult>
+    <name>29</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="44" lt="43" ts="1452034388650" s="true" lb="5.14 Bad protocol" rc="403" rm="Forbidden" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="539" ng="1" na="1">
+  <assertionResult>
+    <name>30</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="52" lt="52" ts="1452034388800" s="true" lb="5.19a Bad shortcode - missing tel: prefix" rc="400" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="259" ng="1" na="1">
+  <assertionResult>
+    <name>35</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>36</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="48" lt="48" ts="1452034388849" s="true" lb="5.19b Bad shortcode - missing parameter" rc="600" rm="Bad Request" tn="5.1-5.14, 5.16, 5.18-5.20 Good Auth &amp; Good Content-Type 1-1" dt="text" by="259" ng="1" na="1">
+  <assertionResult>
+    <name>37</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>38</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>

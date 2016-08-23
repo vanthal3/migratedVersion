@@ -1,0 +1,38 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /Users/Hanifa_Bell/Desktop/finalTests
+
+
+
+Performance: Recording JtlFile reports '**/fp.jtl'
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/bahen/builds/2016-02-29_14-20-41/visualizer-reports/JTL File/fp.jtl'.
+Performance: Recording JtlFile reports '**/EchoHeader.jtl'
+Visualizer: Parsing JMeter JTL file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/bahen/builds/2016-02-29_14-20-41/visualizer-reports/JTL File/EchoHeader.jtl'.
+Performance: Failed to parse file '/Users/Hanifa_Bell/Desktop/Jmeter-Visualizer/./work/jobs/bahen/builds/2016-02-29_14-20-41/visualizer-reports/JTL File/EchoHeader.jtl': null
+java.lang.NullPointerException
+	at hudson.plugins.visualizer.JtlFileParser$1.endElement(JtlFileParser.java:314)
+	at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:392)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:328)
+	at hudson.plugins.visualizer.JtlFileParser.parseXml(JtlFileParser.java:89)
+	at hudson.plugins.visualizer.JtlFileParser.parse(JtlFileParser.java:46)
+	at hudson.plugins.visualizer.AbstractParser.parse(AbstractParser.java:66)
+	at hudson.plugins.visualizer.JVisualizerPublisher.perform(JVisualizerPublisher.java:293)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:717)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:692)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:639)
+	at hudson.model.Run.execute(Run.java:1527)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:236)
+Build step 'Run Jmeter Visualizer' changed build result to FAILURE
+Finished: FAILURE
